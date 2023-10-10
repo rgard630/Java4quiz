@@ -1,0 +1,109 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styling for buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Styling for quiz header */
+.quiz-header {
+    margin-bottom: 20px;
+}
+
+/* Styling for question */
+.question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Styling for answer options */
+.answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-option {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Styling for game-over page */
+#game-over-page {
+    display: none;
+}
+
+/* Styling for the initials form */
+#initials-form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for high-score page */
+#high-scores-page {
+    display: none;
+}
+
+#high-scores-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#high-scores-list li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
